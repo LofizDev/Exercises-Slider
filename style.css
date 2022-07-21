@@ -34,6 +34,7 @@ html, body {
       position: absolute;
       z-index: 2;
       bottom: 8%;
+      cursor: pointer;
       left: 15%;
       transform: translate(-50%, -50%);
       display: flex;
@@ -43,6 +44,7 @@ button {
       color: #fff;
       background: none;
       padding: 24px;
+      cursor: pointer;
       border: 1px solid rgba(255, 255, 255, .3);
       font-size: 16px;
       border-radius: 50%;
@@ -94,7 +96,7 @@ button:focus {
       z-index: 2;
       position: absolute;
       width: 100%;
-      top: 45%;
+      top: 37%;
 }
 
 .text-slider {
@@ -105,7 +107,16 @@ button:focus {
 
 .text-slide h1 {
       color: #fff;
-      font-size: 64px;
+      font-size: 60px;
+      font-family: "Cinzel";
+      font-weight: lighter;
+      text-transform: uppercase;
+      padding-left: 10%;
+}
+.text-slide h6 {
+      color: #fff;
+      font-size: 36px;
+      margin-top: -20px;
       font-family: "Cinzel";
       font-weight: lighter;
       text-transform: uppercase;
